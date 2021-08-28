@@ -1,0 +1,1340 @@
+[
+  {
+    "_id": "6126ada1ac163537e105deb5",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [],
+    "hw_type": "homework",
+    "title": "Добавляем endpoint для получения одного документа.",
+    "description": "<p>На занятии мы написали функцию-обработчик запроса.</p><p>В ней есть проверка на то, что url  равен \"/homeworks\"</p><p><br></p><p>/homeworks - путь, который еще могут называть endpoint</p><p><br></p><p>Перепишите этот кусок так, чтобы по запросу \"/homework\" или \"/homework/\" все также возвращался список, а по запросу вида \"/homework/:id\" (например \"/homework/5f2936dc0efdcf66c45f2ef7\") возвращалось содержимое одного задания.</p><p>Этим вы добавите еще один \"endpoint\" - путь, по которому что-то можно получить с сервера.</p><p><br></p><p>Обновите ...</p></p></p></p>",
+    "time_terms": "2021-09-01T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-25T20:52:49.313Z",
+    "number": 29
+  },
+  {
+    "_id": "6121f3c37d02b31f7f84fd36",
+    "retake_terms": 3,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "61266735ac163537e105d715",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "auditor": "60c889f8d183751db6613eec",
+        "assessed_points": 100,
+        "points": 100
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Webpack, Классы",
+    "description": "<p>потренируемся работать с классами, модулями и webpack.</p><p><br></p><p>Начальную сборку Webpack вы можете скачать <a href=\"https://github.com/nelilika/webpack-project\" rel=\"noopener noreferrer\" target=\"_blank\">здесь</a>:</p><p>Можете создать сами по этому <a href=\"https://dev.to/antonmelnyk/how-to-configure-webpack-from-scratch-for-a-basic-website-46a5\" rel=\"noopener noreferrer\" target=\"_blank\">туториалу</a>:</p><p><br></p><p><strong><u>Обязательные требования:</u></strong></p><ul><li>каждый класс должен быть реализован в отдельном файле;</li><li>проект должен собираться с помощью webpack;</li><li>код не должен дублироваться, вся логика должна быть разбросана по функциям;</li><li><strong>console.log()</strong> допускается только в внутри финальной функции <em>main</em>();</li><li>домашнее задание проверяю только в pull request в github;</li></ul><p><br></p><p><strong>Задача</strong>: Реализуем ...</p></p></p></p>",
+    "time_terms": "2021-08-28T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-22T06:50:43.005Z",
+    "number": 28
+  },
+  {
+    "_id": "611d7f9079b4c914df7ce1be",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "611e51b28259881e8f12be70",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "auditor": "60c889f8d183751db6613eec",
+        "assessed_points": 100,
+        "points": 100
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Методы массива (не for)",
+    "description": "<p>Тренируем работу с методами массива и пытаемся попрощаться с for :)</p><p><br></p><p><strong style=\"color: var(--color-prettylights-syntax-comment);\">Избавляемся от ненужных вещей.</strong></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">В строке записан список вещей, разделенных запятыми. Некоторые вещи - ненужные. Их легко опознать по названию - их названия начинаются с</span><em style=\"color: var(--color-prettylights-syntax-comment);\"> \"Ненужный\", \"Ненужное\", \"Ненужная\", \"Ненужные\". </em><span style=\"color: var(--color-prettylights-syntax-comment);\">Избавьтесь от ненужных вещей с помощью методов строки: </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">split и startsWith</strong><span style=\"color: var(--color-prettylights-syntax-comment);\"> и метода массива: </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">filter</strong><span style=\"color: var(--color-prettylights-syntax-comment);\">. Соберите строку назад с помощью метода массива </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">join</strong><span style=\"color: var(--color-prettylights-syntax-comment);\">.</span></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">Должно остаться </span><strong style=\"color: var(--color-prettylights-syntax-comment);\">8</strong><span style=\"color: var(--color-prettylights-syntax-comment);\"> нужных вещей.</span></p><p><span style=\"color: var(--color-prettylights-syntax-comment);\">В результате до...</span></p></p>",
+    "time_terms": "2021-08-25T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-18T21:45:52.218Z",
+    "number": 27,
+    "wasted": true
+  },
+  {
+    "_id": "611d7d4379b4c914df7ce1a1",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "6121577b1b4b461e8260f71a",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "auditor": "60c889f8d183751db6613eec",
+        "assessed_points": 100,
+        "points": 100
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Promises: weather",
+    "description": "<p><strong>UPDATE:</strong> Внимание, мой аккаунт заэкспарился. Вам необходимо создать свой собственный на сайте документации и поменять ACCESS_KEY, чтобы продолжить работу с API.</p><p><br></p><p>Работаем с WEATHER API - <a href=\"https://weatherstack.com/documentation\" rel=\"noopener noreferrer\" target=\"_blank\">документация тут</a></p><pre class=\"ql-syntax\" spellcheck=\"false\">ACCESS_KEY = d980918584d58c50725729c01653726e\n</pre><p>Необходимо создать простой cелект с 5ю городами и вывести информацию о&nbsp;текущей&nbsp;погоде на страницу. (обратите внимание на атрибут <strong>value</strong>, заполнение его обязательно, чтобы потом можно было считать данные по кликнутой опции).</p><p>Се...</p></p>",
+    "time_terms": "2021-08-25T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-18T21:36:03.914Z",
+    "number": 26,
+    "wasted": true
+  },
+  {
+    "_id": "611432f342f2fc0387bdb864",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "611b86dcafb17d64739df610",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "auditor": "60c889f8d183751db6613eec",
+        "assessed_points": 100,
+        "points": 100
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Promises: Rick&Morty",
+    "description": "<p>Напишите небольшое приложение, которое будет работать с <a href=\"https://rickandmortyapi.com/documentation\" rel=\"noopener noreferrer\" target=\"_blank\">Rick&amp;Morty API.</a></p><p><br></p><p>Начальный код представлен в архивах ниже:</p><p><em>version 1 - empty</em> -- содержит чистый js файл для написания функций с нуля</p><p><em>version 2 - with card renders </em>-- содержит функцию которая рисует карточку со статическими данными.</p><p><br></p><p>Напишите функцию, которая получает с сервера массив персонажей мультфильма и отрисовывает их на странице в карточках.</p><p>Данные в карточках заполнять согласно тестовому примеру в html файле.</p><p>Если пе...</p></p></p>",
+    "time_terms": "2021-08-18T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-11T20:28:35.427Z",
+    "number": 25,
+    "wasted": true
+  },
+  {
+    "_id": "61142fed42f2fc0387bdb825",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "6118c5f92ca32c763d6115ac",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "auditor": "60c889f8d183751db6613eec",
+        "assessed_points": 100,
+        "points": 100
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Promises: game",
+    "description": "<p>1) Создайте Promise, которое должно выполнять следующие действия:</p><ul><li>через 2 секунды он должен создать переменную <strong>number </strong>со случайным значением от 1 до 6;</li><li>если 1 &lt;= <strong>number </strong>&lt;= 5, вывести в консоли сообщение \"Start the game...\" и вернуть число;</li><li>если <strong>number</strong> =  6, вернуть ошибку;</li></ul><p>Затем должна быть запущена функция-потребитель (<strong><em>than()</em></strong>), которая выполняет следующие</p><p>действия:</p><ul><li>если <strong>number </strong>= 1, вывести сообщение \"Stay here\" ;</li><li>если <strong>number </strong>&gt;= 2, вывести сообщение \"Go &lt;number&gt; steps...</li></ul>",
+    "time_terms": "2021-08-18T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-11T20:15:41.024Z",
+    "number": 24,
+    "wasted": true
+  },
+  {
+    "_id": "610e87e3826b547595a26609",
+    "retake_terms": 1,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "610fee64826b547595a27c6f",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "quiz",
+    "title": "Прототипы",
+    "description": "<p>Проверяем как запомнился материал урока.</p>",
+    "time_terms": "2021-08-14T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-07T13:17:23.917Z",
+    "number": 3,
+    "wasted": true
+  },
+  {
+    "_id": "610e838c72448676ae0ff55e",
+    "retake_terms": 1,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "610fe49d826b547595a27b85",
+        "punishment": {
+          "retakes": [
+            1
+          ]
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 99,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "quiz",
+    "title": "Тест: Повторение — мать учения",
+    "description": "<p>Внимательно читайте каждый вопрос</p>",
+    "time_terms": "2021-08-14T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-07T12:58:52.970Z",
+    "number": 2,
+    "wasted": true
+  },
+  {
+    "_id": "610e772b72448676ae0ff406",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "610fcab6826b547595a276f2",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Модульный проект. Часть 2",
+    "description": "<p>Продолжаем и заканчиваем работать над модульным проектом.</p><ol><li>Canvas Game <a href=\"https://docs.google.com/document/d/1Rxy95y4VzzhQ5qnzaAENARzoCNpHxt8rPES8ZGcytuU/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1_XRE2WVjYgwZ7iyeid7va5_4OiSVaDGf29x38Rc625w/edit\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li><li>Playlist <a href=\"https://docs.google.com/document/d/1crQM-WQjJEcQC4c0XYZ9OASxcPCJ0MeS8DlvjZfWA7A/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1Ri5EEDQyQhOdnfq6AYyqh0rM12vlluCpmELZJCl8pzM/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li></ol><p><br></p>",
+    "time_terms": "2021-08-14T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-07T12:06:03.505Z",
+    "number": 23,
+    "wasted": true
+  },
+  {
+    "_id": "610b0aa0d5119e285fba858e",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "610d9a0372448676ae0fea07",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Прототипы",
+    "description": "<p>1) Создайте объект <strong>student </strong>со свойствами <em>firstName</em>, <em>lastName</em>, <em>averageScore </em>и методами <em>getFullName()</em>, который возвращает полное имея студента в виде строки ${firstName} ${lastName}, и<em> isGrantHolder()</em>. Метод <em> isGrantHolder() </em>должен содержать следующую логику:</p><p>Если averageScore больше или равняется числу 4, метод возвращает true, иначе - false.</p><p><br></p><p>Создайте функцию-конструктор <strong>Aspirant </strong>с прототипом <strong>student </strong>и свойствами dissertationTopic и isDissertationComplete.</p><p>Переопределите метод <em>is...</em></p></p>",
+    "time_terms": "2021-08-11T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-08-04T21:46:08.146Z",
+    "number": 22,
+    "wasted": true
+  },
+  {
+    "_id": "61055be6a75d214cfe5052aa",
+    "retake_terms": 2,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "610a9055febd4528601d5018",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Модульный проект. Часть 1",
+    "description": "<p>Нужно разоботать проект на ваш выбор согласно представленному Техническому Заданию (ТЗ).</p><p><br></p><ol><li>Canvas Game <a href=\"https://docs.google.com/document/d/1Rxy95y4VzzhQ5qnzaAENARzoCNpHxt8rPES8ZGcytuU/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1_XRE2WVjYgwZ7iyeid7va5_4OiSVaDGf29x38Rc625w/edit\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li><li>Playlist <a href=\"https://docs.google.com/document/d/1crQM-WQjJEcQC4c0XYZ9OASxcPCJ0MeS8DlvjZfWA7A/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">(ссылка на ТЗ)</a> -- <a href=\"https://docs.google.com/document/d/1Ri5EEDQyQhOdnfq6AYyqh0rM12vlluCpmELZJCl8pzM/edit?usp=sharing\" rel=\"noopener noreferrer\" target=\"_blank\">шпаргалка</a></li></ol>",
+    "time_terms": "2021-08-07T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-31T14:19:18.177Z",
+    "number": 21,
+    "wasted": true
+  },
+  {
+    "_id": "61053646a75d214cfe504f37",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "6106ab5aa75d214cfe506478",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Регулярки. Основы",
+    "description": "<p>Пройти заданий{5, } на этом <a href=\"https://regex101.com/quiz\" rel=\"noopener noreferrer\" target=\"_blank\">сайте</a></p><p><br></p><p>P.S. Результаты ваших регулярок можно скинуть прямо в LMS, без GIT.</p>",
+    "time_terms": "2021-08-07T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-31T11:38:46.484Z",
+    "number": 20,
+    "wasted": true
+  },
+  {
+    "_id": "6101cca335cfca4df0510f39",
+    "retake_terms": 3,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "61054c9fa75d214cfe505134",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "События в DOM",
+    "description": "<p>1) Напишите функцию, которая ищет подходящие фильмы из заданного списка. <em>(Capture1.jpg)</em></p><p>_</p><p>HTML-файл должен быть со следующей структурой в секции &lt;body&gt; :</p><pre class=\"ql-syntax\" spellcheck=\"false\">&lt;h1&gt;Film list&lt;/h1&gt;\n&lt;ul&gt;\n  &lt;li&gt;Jurassic Park&lt;/li&gt;\n  &lt;li&gt;Schindler’s List&lt;/li&gt;\n  &lt;li&gt;Million Dollar Baby&lt;/li&gt;\n  &lt;li&gt;The Social Network&lt;/li&gt;\n  &lt;li&gt;The Silence of the Lambs&lt;/li&gt;\n  &lt;li&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;label&gt;Search:&lt;/label&gt;\n...</pre>",
+    "time_terms": "2021-08-04T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-28T21:31:15.270Z",
+    "number": 19,
+    "wasted": true
+  },
+  {
+    "_id": "6101b53835cfca4df0510cf6",
+    "retake_terms": 2,
+    "difficulty_terms": 1,
+    "results": [
+      {
+        "_id": "6102911a9a46274d00d7fad0",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Игра MDN",
+    "description": "<p>Пройти туториал по написанию 2D игры на Canvas:</p><p><br></p><p><a href=\"https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript\" rel=\"noopener noreferrer\" target=\"_blank\">https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript</a></p>",
+    "time_terms": "2021-08-04T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-28T19:51:20.094Z",
+    "number": 18,
+    "wasted": true
+  },
+  {
+    "_id": "60fc1aa408965668b449dc29",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60fc6b5d5e46d267c59bd10f",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Деструктуризация",
+    "description": "<p>1) Создайте объект <strong>vegetable</strong>, с такими свойствами, чтобы cледующий код вернул<em> \"onions are usually white\"</em>.</p><pre class=\"ql-syntax\" spellcheck=\"false\">const { name, color } = vegetable;\nconsole.log(`${name}s are usually ${color}`);\n</pre><p><br></p><p>2) Добавьте свойства в объект vegetable так, чтобы в консоль вывелось <em>\"onions are usually round\".</em></p><pre class=\"ql-syntax\" spellcheck=\"false\">const { shape } = vegetable;\nconsole.log(`${name}s are usually ${shape}`);\n</pre><p><br></p><p>3) Создайте массив объектов <strong>vegetables</strong> (каждый элемент массива имеет содержит точно такую же структуру как объект <strong>vegetabl...</strong></p></p></p>",
+    "time_terms": "2021-07-31T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-24T13:50:28.557Z",
+    "number": 17,
+    "wasted": true
+  },
+  {
+    "_id": "60fc0a138eb58f67c4f94e59",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60ff875362fae1548f1684f0",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "DOM sweet DOM",
+    "description": "<p>1) Напишите функцию, которая изменяет фоновый цвет текста последнего параграфа в блоке</p><p>&lt;body&gt;, а так же функцию, которая меняет блоки <strong>footer </strong>и <strong>main</strong> местами.</p><p>_</p><p>HTML-файл должен быть со следующей структурой в секции &lt;body&gt; :</p><pre class=\"ql-syntax\" spellcheck=\"false\">&lt;div id=\"wrapper\"&gt;\n  &lt;div id=\"footer\"&gt;\n    &lt;h1&gt;Footer&lt;/h1&gt;\n  &lt;/div&gt;\n  &lt;div id=\"main\"&gt;\n    &lt;p&gt;I am first paragraph&lt;/p&gt;\n    &lt;p&gt;I am second paragraph&lt;/p&gt;\n    &lt;p&gt;I am last paragraph&lt;/p...</pre>",
+    "time_terms": "2021-07-31T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-24T12:39:47.147Z",
+    "number": 16,
+    "wasted": true
+  },
+  {
+    "_id": "60f899dfebe2d3050155b656",
+    "retake_terms": 2,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "60fac9c408965668b449c759",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Функции. Bind",
+    "description": "<p>1) Создайте объект <strong>coffeeMachine </strong>со свойством <em>message</em>: ‘Your coffee is ready!’ и методом <em>start()</em>, при вызове которого через 3 секунды в консоль выведется сообщение, записанное в свойстве message.</p><p>Начальный код:</p><pre class=\"ql-syntax\" spellcheck=\"false\">let coffeeMachine = {\n   message: 'Your coffee is ready!',\n   start: function() {\n     // write your code here\n   },\n}\n</pre><p>Результат:</p><pre class=\"ql-syntax\" spellcheck=\"false\">coffeeMachine.start(); // 'Your coffee is ready!'\n</pre><p><br></p><p>Создайте объект teaPlease со свойством message: 'Wanna some tea instead of coffee?'. Обновит...</p></p>",
+    "time_terms": "2021-07-28T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-21T22:04:15.428Z",
+    "number": 15,
+    "wasted": true
+  },
+  {
+    "_id": "60f3056aec98c41894e8aba5",
+    "retake_terms": 2,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "60f46edeec98c41894e8c12d",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Методы String()",
+    "description": "<p>1) Создайте 3 переменных со следующими значениями</p><pre class=\"ql-syntax\" spellcheck=\"false\">let string1 = \"Aquamarine Black Blue Brown Chocolate \";\nlet string2 = \"Green Lime Olive Orange Purple \";\nlet string3 = \"Red Tomato Violet White Yellow\";\n</pre><p><br></p><p>а) Создайте функцию<strong> joinColor()</strong>, которая объединит все 3 строки в одну. Функция должна работать с <strong><u>любым </u></strong>количеством входящих строк.</p><pre class=\"ql-syntax\" spellcheck=\"false\">let colors = joinColor(string1, string2, string3); // Aquamarine Black Blue Brown Chocolate Green Lime Olive Orange Purple Red Tomato Violet White ...</pre></p>",
+    "time_terms": "2021-07-24T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-17T16:29:30.904Z",
+    "number": 14,
+    "wasted": true
+  },
+  {
+    "_id": "60f2c138ec98c41894e8a57a",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60f3d77540ea2119847a57f2",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Замыкания",
+    "description": "<p>1) Создайте функцию <strong>createBuffer()</strong>, которая создает локальную переменную <em>text</em> в виде пустой строки и возвращает функцию <strong>buffer</strong>, с которой можно работать следующим образом:</p><ul><li>Если в функцию <strong>buffer</strong> был передан строковый параметр – этот параметр записывается в переменную <em>text</em>. Иначе выведите ошибку в консоль.</li><li>Если функция <strong>buffer </strong>вызывается без параметров – возвращается значение переменной <em>text</em>.</li></ul><p>Создайте переменную и запишите в нее результат выполнения функции <strong>createBuffer()</strong>.</p><p>Продемонс...</p>",
+    "time_terms": "2021-07-24T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-17T11:38:32.325Z",
+    "number": 13,
+    "wasted": true
+  },
+  {
+    "_id": "60ef4d0f9cfe4d3f2fc8a1eb",
+    "retake_terms": 3,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "60f29cb772bb5c1892b505bd",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "This (и немного reduce())",
+    "description": "<p>1) Создайте объект <strong>triangle</strong> со следующими свойствами: <em>aSide</em>, <em>bSide</em>, <em>cSide</em>.</p><p>Создайте метод setValues(), который вызывает функцию prompt и заполняет свойства <em>aSide</em>, <em>bSide</em>, <em>cSide</em> значениями.</p><ul><li>Создайте в объекте <strong>triangle </strong>метод для расчета периметра треугольника.</li><li>Создайте в объекте triangle метод, который проверяет является ли треугольник</li></ul><p>равносторонним:</p><p>Выведите информацию о созданном треугольнике (включая результат выполнения</p><p>всех методов) в консоль.</p><pre class=\"ql-syntax\" spellcheck=\"false\">/* Initial object */\nlet triangle = ...</pre>",
+    "time_terms": "2021-07-21T09:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-14T20:46:07.442Z",
+    "number": 12,
+    "wasted": true
+  },
+  {
+    "_id": "60e98e4647eaf450b426ba92",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60ec407cfc34443ab4f2114f",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Функции и методы массивов 2.0",
+    "description": "<p>1) Добработайте массив students, с которым мы работали на уроке.</p><p>1.1) Добавьте в массив два новых объекта с такими же свойствами, но с другими значениями.</p><p>1.2) Выведите в консоль массив студента(-ов), которых зовут 'Emily'.</p><p>1.3) Выведите в консоль объект студента, у которого id = 4.</p><p>1.4) Выведите в консоль массив фамилий студентов.</p><p>1.5)* Выведите в консоль массив студентов с новым свойством average, которое отображает среднюю его оценку.</p><p><em><u>tips</u></em>: тут нужно использовать метод <em>map</em>, чтоб...<em></em></p>",
+    "time_terms": "2021-07-17T00:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-10T12:10:46.814Z",
+    "number": 11,
+    "wasted": true
+  },
+  {
+    "_id": "60e616b5122c50585bd24cb9",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60e740e97e79ae13b6193ea6",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Функции и методы массивов",
+    "description": "<p>1) <span style=\"color: rgb(0, 0, 0);\">Напишите функцию </span><strong style=\"color: rgb(0, 0, 0);\">fillArray</strong><span style=\"color: rgb(0, 0, 0);\">, которая создает массив и заполняет ее предоставленным значением.</span></p><pre class=\"ql-syntax\" spellcheck=\"false\">let array = fillArray(3, 'qwerty'), // ['qwerty', 'qwerty', 'qwerty']\n</pre><p>где <em>10 </em>- это длинна массива, а <em>'qwerty'</em> его значения</p><p><br></p><p>2) Напишите функцию <strong>reverseArray</strong>, которая разворачивает значения массива задом наперед.</p><pre class=\"ql-syntax\" spellcheck=\"false\">let array = ['My', 'life', '-', 'my', 'rules'];\nlet result = reverseArray(array); // ['rules', 'my', '-', 'life', 'My'];\n</pre><p><br></p><p>3) <span style=\"color: rgb(0, 0, 0);\">Напишите функцию </span><strong style=\"color: rgb(0, 0, 0);\">filterArray</strong><span style=\"color: rgb(0, 0, 0);\">, которая очищает массив...</span></p></p></p>",
+    "time_terms": "2021-07-14T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-07T21:03:49.882Z",
+    "number": 10,
+    "wasted": true
+  },
+  {
+    "_id": "60e04c80122c50585bd1f85d",
+    "retake_terms": 4,
+    "difficulty_terms": 3,
+    "results": [
+      {
+        "_id": "60e0b4c6944988596ed31dfa",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Циклы 3.0",
+    "description": "<p>Файл с практического урока и есть домашка.</p><p>Обратите внимание, что для него нужен файл index.html. Для задачи №8 вывод значения цикла происходит на старнице браузера, а не в консоли</p>",
+    "time_terms": "2021-07-09T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-07-03T11:39:44.582Z",
+    "number": 9,
+    "wasted": true
+  },
+  {
+    "_id": "60dcdd3ca493dd1933eea9be",
+    "retake_terms": 2,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60de3d4a02aa33586109f46b",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Объекты. Массивы",
+    "description": "<p>1) Напишите программу, которая продемонстрирует работу с массивом.</p><p>Создайте массив из восьми элементов:</p><p><br></p><p><br></p><p><br></p><pre class=\"ql-syntax\" spellcheck=\"false\">'455'\n87.15\ntrue\nundefined\nnull\n'false'\n[]\n{}\n</pre><p>Выведите информацию о типе каждого элемента в консоли.</p><p>Добавьте значение 6 к каждому элементу массива и выведите полученные значения</p><p>в консоли.</p><p><br></p><p>2) Напишите программу, которая спрашивает у пользователя число и создает массив numbers из случайных целых чисел в диапазоне от <em>0 до 10, </em>длинною в число который указал пользователь.</p><p>Используйт...<em></em></p></p></p></p></p>",
+    "time_terms": "2021-07-03T04:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-30T21:08:12.553Z",
+    "number": 8,
+    "wasted": true
+  },
+  {
+    "_id": "60dcd24fb9e827185875a6bb",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60de01f202aa33586109f0e8",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Циклы 2.0",
+    "description": "<p class=\"ql-align-justify\">1) Напишите <em>бесконечный</em> цикл, который вызывает команду <strong>confirm()</strong> до тех пор пока пользователь не нажмет Отмена.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">2) Напишите программу, которая спрашивает у пользователя число и высчитывает <a href=\"https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB\" rel=\"noopener noreferrer\" target=\"_blank\">факториал</a> этого числа. Если пользователь ввел не целое число, запросите ввести число еще раз до тех пор пока это число не будет введено.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">3) Напишите программу, которая спрашивает у пользователя число и делит его на 2 столько раз, пока оно не будет &lt;= 50. Выведите в консоль число и количест...</p></p></p>",
+    "time_terms": "2021-07-03T04:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-30T20:21:35.895Z",
+    "number": 7,
+    "wasted": true
+  },
+  {
+    "_id": "60d717910f941c7c98d2759d",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60d9f25de5a1ac57ddba124d",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Циклы",
+    "description": "<p>1) Напишите программу, которая спрашивает у пользователя его имя и выводит в консоли текстовое поздравление.</p><pre class=\"ql-syntax\" spellcheck=\"false\">Happy birthday to you\nHappy birthday to you\nHappy birthday, dear &lt;name&gt;\nHappy birthday to you\n</pre><p>Используйте любой цикл для реализации.</p><p><br></p><p>2) Сформируйте строку '.#.#.#.#.#.#.#' с помощью цикла <strong>for</strong>, где количество повторений символов '.#' задает пользователь через команду <strong>prompt().</strong></p><p><br></p><p>3) Напишите программу, котрая спрашивает у пользователя число и суммирует все нечетные числ...</p></p></p>",
+    "time_terms": "2021-06-30T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-26T12:03:29.233Z",
+    "number": 6,
+    "wasted": true
+  },
+  {
+    "_id": "60d714603ff6b77c92663c48",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60d87f4edd03f8056e607937",
+        "punishment": {
+          "retakes": [
+            1
+          ]
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 99,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Условные конструкции",
+    "description": "<p>1) Напишите программу, которая спрашивает и пользователя номер маршрутки.</p><p>Если это номер 7, 255 или 115, тогда пользователь может ехать. Введите в консоли <em>\"You can go\"</em>.</p><p>Если нет - выведите в консоль <em>\"Please wait\"</em>.</p><p><br></p><p>2) Напишите программу, которая получает число от пользователя и сравнивает введенное значение с числом <strong>Pi</strong>.</p><p>Сравните является ли число больше, чем число <strong>Pi.</strong></p><p>Сравните является ли число меньше, чем число <strong>Pi.</strong></p><p>Сравните является ли число равным числу <strong>Pi.</strong></p><p>Если введенное число, чи...</p></p>",
+    "time_terms": "2021-06-30T17:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-26T11:49:52.381Z",
+    "number": 5,
+    "wasted": true
+  },
+  {
+    "_id": "60d3a01c3c7eea7d7171e2cb",
+    "retake_terms": 1,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60d47a493c7eea7d7171ef3b",
+        "punishment": {
+          "retakes": [
+            1
+          ],
+          "time_terms": 10
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 89,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "quiz",
+    "title": "Тест 1",
+    "description": "",
+    "time_terms": "2021-06-25T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-23T20:57:00.646Z",
+    "number": 1,
+    "wasted": true
+  },
+  {
+    "_id": "60d39bde3ff6b77c92660654",
+    "retake_terms": 3,
+    "difficulty_terms": 1,
+    "results": [
+      {
+        "_id": "60d476d83c7eea7d7171ee41",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Числа и строки",
+    "description": "<p>1) Создайте три переменные. Присвойте первой переменной числовое значение. Вторая переменная должна быть равна первой переменной, увеличенной в 3 раза. Третья переменная равна сумме двух первых. Выведите в консоль все три переменные.</p><p><br></p><p>2) Создайте переменные х и y для хранения числа. Значения переменных задает пользователь через команду <strong>prompt()</strong>. Рассчитайте произведение, частное, разность и сумму этих значений. Результат последовательно отобразите в консоли в формате полной мат...</p></p>",
+    "time_terms": "2021-06-25T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-23T20:38:54.325Z",
+    "number": 4,
+    "wasted": true
+  },
+  {
+    "_id": "60cddc59e99d3e3cde95f8a9",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60d0496c4514353c0404c2ad",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Практика 3",
+    "description": "<p>Напишите программу, которая выведит в консоль тип 3х разных переменных.</p><p><br></p><p>Критерии:</p><ul><li>Создайте переменную number и присвойте ей значение <strong>156798</strong>;</li><li>Создайте переменную string и присвойте ей значение<strong> IT School 'Hillel'</strong>;</li><li>Создайте переменную boolean и присвойте ей значение <strong>false</strong>;</li><li>Определите тип созданных переменных;</li><li>Отобразите значение каждой переменной и её тип в консоли в следующем виде:</li></ul><pre class=\"ql-syntax\" spellcheck=\"false\">\"value: &lt;value&gt;; type: &lt;type&gt;\"\n</pre>",
+    "time_terms": "2021-06-22T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-19T12:00:25.962Z",
+    "number": 3,
+    "wasted": true
+  },
+  {
+    "_id": "60cdda48e99d3e3cde95f836",
+    "retake_terms": 3,
+    "difficulty_terms": 2,
+    "results": [
+      {
+        "_id": "60d0491ce99d3e3cde96100b",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Знакомство",
+    "description": "<p>Напишите программу, которая спрашивает у пользователя как его зовут, в какой стране и в каком городе он живет и выведите результат в консоль.</p><p><br></p><p>Критерии:</p><ul><li>используйте метод <strong>prompt()</strong>, чтобы спросить у пользователя данные</li><li>используйте метод <strong>console.log()</strong>, чтобы отобразить данные в консоли в следующем виде:</li></ul><pre class=\"ql-syntax\" spellcheck=\"false\">'Hello, your name is &lt;name&gt;. You live in &lt;city&gt;, &lt;country&gt;'\n</pre>",
+    "time_terms": "2021-06-22T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-19T11:51:36.872Z",
+    "number": 2,
+    "wasted": true
+  },
+  {
+    "_id": "60cdd7e04514353c0404a915",
+    "retake_terms": 3,
+    "difficulty_terms": 1,
+    "results": [
+      {
+        "_id": "60d048ab1d9a4c3bfeca8b05",
+        "punishment": {
+          "retakes": []
+        },
+        "assessed": true,
+        "assessed_points": 100,
+        "points": 100,
+        "auditor": "60c889f8d183751db6613eec"
+      }
+    ],
+    "hw_type": "homework",
+    "title": "Практика 1",
+    "description": "<p>Напишите программу, которая спрашивает у пользователя сколько ему лет и выводит его возрат на экран.</p><p><br></p><p>Критерии:</p><ul><li>используйте метод prompt(), чтобы спросить у пользователя данные</li><li>используйте метод alert(), чтобы вывести результаты на экран</li></ul>",
+    "time_terms": "2021-07-03T21:00:00.000Z",
+    "author": {
+      "_id": "60c889f8d183751db6613eec",
+      "avatars": [
+        {
+          "_id": "60c9b56ad183751db6615063",
+          "destination": "uploads/images",
+          "filename": "b63dc78c06669a8c3b4894275a3c2aba.jpg"
+        }
+      ],
+      "first_name": "Лилия",
+      "last_name": "Недашковская",
+      "first_name_en": "Liliia",
+      "first_name_ru": "Лилия",
+      "first_name_uk": "Лілія",
+      "last_name_en": "Nedashkivska",
+      "last_name_ru": "Недашковская",
+      "last_name_uk": "Недашківська"
+    },
+    "createdAt": "2021-06-19T11:41:20.211Z",
+    "number": 1,
+    "wasted": true
+  }
+]

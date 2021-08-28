@@ -1,0 +1,58 @@
+body {
+  background: #004282;
+  color: #ffffff;
+}
+.container {
+  display: flex;
+}
+.ht-links {
+  width: 250px;
+  background: #ffffff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  cursor: pointer;
+  width: 150px;
+  background: #2b8dc7;
+  display: block;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  color:#ffffff;
+}
+a:hover {
+  background: #004282;
+}
+.task-wrapper {
+  width: 700px;
+  background: #ffffff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #004282;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  padding: 20px;
+}
+.sensei {
+  font-size: 24px;
+}
+.school-logo-block {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.pirate-flag {
+  margin: 10px;
+  width: 217px;
+}
+.copyright {
+  color: #000000;
+  font-size: 18px;  
+}
