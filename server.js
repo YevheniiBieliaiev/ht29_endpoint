@@ -4,13 +4,14 @@ import path from "path";
 
 const SERVER_PATH = path.dirname(process.argv[1]);
 const PORT = 5000;
-const HOMEWORKS = JSON.parse(fs.readFileSync(path.join(SERVER_PATH, "static", "homeworks.json"), 'utf8'));
+const HOMEWORKS = JSON.parse(fs.readFileSync(path.join(SERVER_PATH, "static", "homework.json"), 'utf8'));
 
-const REG_EXP = '\/homework' || '\/homework\/';
+// /^\/homework\/?$/.test(endpoint) 
+const REG_EXP = /\/homework/ || /\/homework\//;
 
 function regExp(endpoint) {
   if (endpoint.match(REG_EXP)) {
-    return '/homeworks';
+    return '/homework'
   }
 }
 
@@ -64,11 +65,9 @@ const SERVER = http.createServer((req, res) => {
         </body> 
     </html> 
     `);
-
     res.end();
   } else {
     const INDEX_PATH = path.join(SERVER_PATH, 'static', req.url);
-
     fs.readFile(INDEX_PATH, (err, htmlContent) => {
       if (err) {
         res.statusCode = 400;
@@ -76,7 +75,6 @@ const SERVER = http.createServer((req, res) => {
       }
       res.end(htmlContent);
     });
-
   }
 });
 
